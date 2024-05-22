@@ -153,6 +153,7 @@ function App() {
           <h3 className="text-[20px] text-bold text-center pt-[40px] pb-[20px]">
             Generated Password
           </h3>
+
           <input
             className="p-2 rounded-[10px] w-[500px]"
             type="text"
@@ -160,6 +161,7 @@ function App() {
             value={password}
             readOnly
           />
+
           <br></br>
         </div>
       </div>
